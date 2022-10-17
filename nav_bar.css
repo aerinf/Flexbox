@@ -7,6 +7,10 @@ body{
   height: 60px;
   width: 100%;
   background-color: lightgrey;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
 .item {

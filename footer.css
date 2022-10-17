@@ -1,24 +1,41 @@
 
 body {
   margin: 0px;
+
 }
 
 .footer {
   height: 150px;
   background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+}
+
+#two {
+  flex-direction: column;
+  justify-content:initial;
 }
 
 .title {
   font-weight: bold;
   font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .info {
   font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content:initial;
 }
 
 .item {
   padding: 10px;
   width: 150px;
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif ;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
 }
